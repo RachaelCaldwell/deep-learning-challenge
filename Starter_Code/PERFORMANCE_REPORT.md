@@ -5,13 +5,16 @@ The purpose of this analysis is to evaluate the performance of two deep learning
 # Results
 ***Data Preprocessing***<br>
 *Target Variable:*
-- The target variable for both models is "IS_SUCCESSFUL," which represents the success (1) or failure (0) of funding an applicant.
+- The target variable for both models is "IS_SUCCESSFUL," which represents the success (1) or failure (0) of funding an applicant.<br>
+
 *Features:*
-- The features used for the models include all columns in the dataset except "EIN" and "NAME," which are non-beneficial ID columns. These features are used to predict the success of funding.
+- The features used for the models include all columns in the dataset except "EIN" and "NAME," which are non-beneficial ID columns. These features are used to predict the success of funding.<br>
+
 *Removed Variables:*
 - In the initial model, some categorical variables were transformed into dummy variables for model input. In the optimization model, the "EIN" column was dropped, and the "NAME" column was binned and replaced with a "Other" category.
 
-***Compiling, Training, and Evaluating the Model***
+***Compiling, Training, and Evaluating the Model***<br>
+
 *Initial Model:*
 - Number of Input Features: 43
 - Number of Hidden Layers: 2
@@ -30,5 +33,5 @@ The purpose of this analysis is to evaluate the performance of two deep learning
 - Optimizer: Adam
 - The optimization model was trained with 100 epochs, achieving an accuracy of approximately 77.92%.
 
-***Summary***
+***Summary***<br>
 The initial deep learning model achieved an accuracy of 72.42%, which falls short of the target model performance. To improve model performance, the optimization model was created by increasing the number of hidden layers and neurons. This optimization resulted in a higher accuracy of 77.92%.
