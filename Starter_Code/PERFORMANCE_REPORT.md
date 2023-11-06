@@ -25,6 +25,7 @@ The purpose of this analysis is to evaluate the performance of two deep learning
 - Loss Function: Binary Crossentropy
 - Optimizer: Adam
 - The initial model was trained with 100 epochs, achieving an accuracy of approximately 72.42%.
+![image](https://github.com/RachaelCaldwell/deep-learning-challenge/assets/134207637/e098a36b-110c-4757-a1fa-a46cf4a177b6)
 
 *Optimization Model:*
 
