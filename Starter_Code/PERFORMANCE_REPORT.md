@@ -27,7 +27,8 @@ The purpose of this analysis is to evaluate the performance of two deep learning
 - The initial model was trained with 100 epochs, achieving an accuracy of approximately 72.42%.
 ![image](https://github.com/RachaelCaldwell/deep-learning-challenge/assets/134207637/e098a36b-110c-4757-a1fa-a46cf4a177b6)
 
-*Optimization Model:*
+*Optimization Model:*<br>
+![image](https://github.com/RachaelCaldwell/deep-learning-challenge/assets/134207637/db098ac4-8749-419d-9886-5a24cc3b1c2e)
 
 - Number of Input Features: 43
 - Number of Hidden Layers: 3
