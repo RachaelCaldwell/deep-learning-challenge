@@ -15,7 +15,9 @@ The purpose of this analysis is to evaluate the performance of two deep learning
 
 ***Compiling, Training, and Evaluating the Model***<br>
 
-*Initial Model:*
+*Initial Model:*<br>
+![image](https://github.com/RachaelCaldwell/deep-learning-challenge/assets/134207637/b3e9b7ea-35c7-42bb-bd56-17d60b5a182e)
+
 - Number of Input Features: 43
 - Number of Hidden Layers: 2
 - Number of Neurons in Hidden Layers: 80 (Layer 1) and 30 (Layer 2)
@@ -25,6 +27,7 @@ The purpose of this analysis is to evaluate the performance of two deep learning
 - The initial model was trained with 100 epochs, achieving an accuracy of approximately 72.42%.
 
 *Optimization Model:*
+
 - Number of Input Features: 43
 - Number of Hidden Layers: 3
 - Number of Neurons in Hidden Layers: 7 (Layer 1), 14 (Layer 2), and 21 (Layer 3)
