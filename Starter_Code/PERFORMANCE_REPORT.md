@@ -34,4 +34,7 @@ The purpose of this analysis is to evaluate the performance of two deep learning
 - The optimization model was trained with 100 epochs, achieving an accuracy of approximately 77.92%.
 
 ***Summary***<br>
-The initial deep learning model achieved an accuracy of 72.42%, which falls short of the target model performance. To improve model performance, the optimization model was created by increasing the number of hidden layers and neurons. This optimization resulted in a higher accuracy of 77.92%.
+The initial deep learning model achieved an accuracy of 72.42%, which falls short of the target model performance. Three optimization models were used to improve model performance. The final optimization model was created by increasing the number of hidden layers and neurons where the "EIN" column was dropped and the "NAME" column was binned. This optimization resulted in a higher accuracy of 77.92%.
+
+***Recommendation for a Different Model***<br>
+While the optimization model demonstrated an improvement in accuracy, an alternative approach that could potentially yield better results with more advanced neural network architectures or machine learning algorithms could be a Random Forest Classifier. A Random Forest Classifier can handle both numerical and categorical data. It can be trained on the same preprocessed dataset and may provide a more interpretable model with better predictive performance.
